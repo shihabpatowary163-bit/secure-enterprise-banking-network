@@ -147,9 +147,11 @@ SMTP and POP3 services were configured to support email communication between ba
 
 ## Testing and Verification
 
+
 The project was tested using Cisco Packet Tracer simulation and connectivity checks.
 
 The project report documents the following results:
+
 
 | Test | Result |
 |---|---|
