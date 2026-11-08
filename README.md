@@ -105,6 +105,8 @@ All three serial interfaces were operational during verification.
 
 ### OSPF Neighbor Verification
 
+![OSPF Neighbor Verification](evidence/ospf-neighbors.png)
+
 The Core-Exchange Router successfully established three OSPF neighbor relationships.
 
 | Neighbor Router ID | Neighbor Address | Local Interface | State |
@@ -116,6 +118,7 @@ The Core-Exchange Router successfully established three OSPF neighbor relationsh
 All three neighbors reached the FULL adjacency state.
 
 ### OSPF Network Statements
+![OSPF Protocol Configuration](evidence/ospf-protocols.png)
 
 The verified OSPF configuration includes the following networks in Area 0:
 
@@ -127,6 +130,8 @@ router ospf 1
 ```
 
 The Core-Exchange Router also learned the following LAN network routes through OSPF:
+
+![OSPF Routing Table](evidence/ospf-routing-table.png)
 
 - 192.168.1.0
 - 192.168.10.0
