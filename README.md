@@ -15,6 +15,11 @@ I also configured centralized network services to support IP address allocation,
 ## Network Architecture
 
 The simulated network consists of three main zones connected through a central Core-Exchange Router.
+### Network Topology
+
+The following diagram illustrates the complete network architecture, including the headquarters, branch office, ATM zone, and their connections through the central Core-Exchange Router.
+
+![Secure Enterprise Banking Network Topology](images/network-topology.png)
 
 ### 1. Headquarters (HQ)
 
