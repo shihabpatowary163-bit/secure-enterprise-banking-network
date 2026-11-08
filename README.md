@@ -174,6 +174,32 @@ The project report documents the following results:
 
 OSPF neighbor relationships and learned routes were also checked directly through Cisco IOS commands.
 
+
+## Verification Evidence
+
+The following screenshots document the network configuration, routing verification, connectivity tests, and application services tested during the Cisco Packet Tracer simulation.
+
+### 1. OSPF and Routing Verification
+
+- [OSPF Neighbor Adjacencies](evidence/ospf-neighbors.png)
+- [OSPF Protocol Configuration](evidence/ospf-protocols.png)
+- [OSPF Routing Table](evidence/ospf-routing-table.png)
+
+### 2. Network Connectivity and Services
+
+- [ATM Machine-2 to Web Server Connectivity](evidence/atm-machine-2-to-web-server-png.png)
+- [DHCP Configuration and IP Assignment](evidence/dhcp-atm-machine-2.png)
+- [DNS Server Records](evidence/dns-server-records.png)
+- [DNS Name Resolution](evidence/dns-resolution-atm-machine-2.png)
+- [HTTP Banking Website Access](evidence/http-banking-website-atm-machine-2.png)
+
+### 3. Email Communication
+
+- [SMTP and POP3 Server Configuration](evidence/email-server-smtp-pop3.png)
+- [Email Received on Teller-PC-1](evidence/email-received-on-teller-pc-1.png)
+- [Email Received on Manager-PC](evidence/email-received-on-manager-pc.png)
+
+
 ## Useful Cisco IOS Verification Commands
 
 The following commands were used to inspect and verify the network configuration:
